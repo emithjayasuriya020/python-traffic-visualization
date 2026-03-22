@@ -2,6 +2,15 @@
 
 **A Python-based data analysis and visualization tool that processes raw traffic CSV logs from two major junctions. It calculates key real-world statistics—such as peak hours, speeding violations, and vehicle type distributions—and generates an interactive graphical histogram to visualize daily traffic flow.**
 
+## 📖 About This Project
+Welcome to my Traffic Data Analyzer! This repository showcases an old coursework project I developed to demonstrate my foundational skills in Python programming, data processing, and graphical user interface (GUI) design. 
+
+The primary goal of this program is to process and analyze raw daily traffic logs from two busy intersections: **Elm Avenue/Rabbit Road** and **Hanley Highway/Westway**. Using Python, the script reads extensive CSV datasets containing individual vehicle movements and extracts meaningful real-world statistics. It calculates metrics such as total vehicle counts, speeding violations, vehicle type distributions (e.g., trucks, electric vehicles, scooters), and peak traffic hours.
+
+Beyond terminal-based data processing and automated text logging, this project features an interactive visual component built with Python's `tkinter` library. It generates a full-screen histogram that provides a clear visual representation of hourly vehicle frequency across both junctions. It also includes a continuous multi-file processing loop, allowing users to analyze multiple datasets seamlessly without restarting the application.
+
+This coursework serves as a great milestone in my coding journey, highlighting my ability to turn raw tabular data into actionable insights and interactive visual dashboards.
+
 ## ✨ Features
 * **Robust Input Validation:** Prompts the user for a specific date and validates the day, month, and year formats before execution.
 * **In-Depth Data Processing:** Parses raw CSV data to calculate:
